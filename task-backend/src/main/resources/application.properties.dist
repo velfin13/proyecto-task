@@ -1,0 +1,16 @@
+quarkus.http.port=8081
+
+quarkus.datasource.db-kind=mysql
+quarkus.datasource.username=
+quarkus.datasource.password=
+quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/tasks
+quarkus.hibernate-orm.database.generation=update
+quarkus.datasource.db-version=5.7.0
+
+quarkus.http.cors=true
+
+
+quarkus.smallrye-openapi.path=/openapi
+
+quarkus.swagger-ui.always-include=true
+quarkus.swagger-ui.path=/swagger-ui
