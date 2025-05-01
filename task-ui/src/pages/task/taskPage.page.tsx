@@ -167,10 +167,10 @@ export const TaskPage = () => {
           },
         }}>
           <Grid size={{ xs: 12, md: 8 }}>
-            <Box>
+            <div className={styles.tableContainer}>
               <StatusFilter setStatus={setStatus} status={status} />
               <TableDinamic columns={columns} rows={dataTable} actions={actions} />
-            </Box>
+            </div>
           </Grid>
 
           <Grid size={{ xs: 12, md: 4 }}>
